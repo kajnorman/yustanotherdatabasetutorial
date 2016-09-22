@@ -1,3 +1,3 @@
 #!/bin/bash
-cp *.php /var/www
+cp *.php /var/www/html
 
