@@ -7,7 +7,7 @@ for this to work the user running the scripts must have write permission to /var
 
 
 This may be done as  :  
-	sudo chmod a+w /var/www (before running the scripts)
+	sudo chmod a+w /var/www/html (before running the scripts)
 	running the scripts as root :  sudo ./deploy.bash
 	Or making a group of webdevelopers and give acces through group permissions
 
