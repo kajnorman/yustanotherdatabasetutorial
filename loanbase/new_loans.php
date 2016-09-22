@@ -1,7 +1,10 @@
 <?php include_once 'header.php';?>
-<h2> Allready registered loans are </h2>
+
 <?php
 include_once 'database_connection.php';
+?>
+<?php
+<h2> Registered loans are </h2>
 
 $sql1 = "select * from borrowers 
 join items join transactions 
