@@ -2,7 +2,7 @@
 <?php
 include_once 'database_connection.php';
 
-$sql = "select * from borrowers join items join transactions where borrowers.borower_id = transactions.borrower_id and items.item_id = transactions.item_id  group by  Borrower_Name ;";
+$sql = "select * from borrowers join items join transactions where borrowers.borower_id = transactions.borrower_id and items.item_id = transactions.item_id ;";
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
